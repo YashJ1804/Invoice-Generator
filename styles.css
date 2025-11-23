@@ -1,0 +1,88 @@
+/* assets/css/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: #ffffff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.navbar .logo a {
+  font-size: 1.8rem;
+  color: #007bff;
+  text-decoration: none;
+}
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navbar nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+/* Page Layout */
+main {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  background: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #0056b3;
+}
+
+/* Tables */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+th {
+  background: #e6f0ff;
+}
+
+/* Footer */
+footer {
+  background: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  color: #666;
+  margin-top: 40px;
+}
